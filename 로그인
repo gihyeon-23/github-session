@@ -1,1 +1,9 @@
+public class LoginService {
+    public boolean login(String id, String pw) {
+        if(id.equals("admin") && pw.equals("1234")) {
+            return true;
+        }
+        return false;
+    }
+}
 
